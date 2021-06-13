@@ -1,0 +1,27 @@
+#header1,
+    #footer {
+      color: white;
+      background-color: navy;
+      font-size: large;
+      margin: 10px;
+      padding: 5px, 5px, 5px, 5px;
+    }
+
+
+    #main {
+      display: grid;
+      grid-template-columns: repeat(3, 33%);
+      grid-template-rows: 3;
+      grid-gap: 20px;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    .div {
+      background-color: gainsboro;
+      padding: 5px 10px;
+    }
+
+    #div7{
+      background-color:khaki;
+    }
